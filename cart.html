@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--header-->
+		<header style="height: 31px; border: 0;">
+			<div class="wrap1">
+				<!--         top         -->
+				<div class="top">
+					<span class="top_left">订购热线：400-608-8888</span>
+					<ul class="top_right">
+						<li style="padding-right: 16px;" class="welcome">欢迎来到好享购物</li>
+						<li class="line">|</li>
+						<li>
+							<a href="login.html">登录</a>
+						</li>
+						<li class="line">|</li>
+						<li>
+							<a href="register.html">注册</a>
+						</li>
+						<li class="line">|</li>
+						<li>
+							<a href="javascript:;" target="_blank">我的订单</a>
+						</li>
+						<li class="line">|</li>
+						<li class="subnav">
+							<a href="javascript:;" target="_blank">我的hao24</a>
+							<em></em>
+							<ul id="hide_nav">
+								<li>
+									<a href="javascript:;" target="_blank">我的购物金</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">我的优惠券</a>
+								</li>
+								<li>
+									<a href="javascript:;" target="_blank">我的积分卡</a>
+								</li>
+								<li>
+									<a href="" target="_blank">我的暂存款</a>
+								</li>
+							</ul>
+						</li>
+						<li class="line">|</li>
+						<li class="mobile">
+							<em></em>
+							<a href="#"><i class="phone_icon"></i>手机购物</a>
+							<ul id="hide_nav1">
+								<li class="app_img"><img src="img-index/app_code.jpg" /></li>
+								<li class="app_text">扫一扫，下载客户端</li>
+							</ul>
+						</li>
+						<li class="line">|</li>
+						<li>
+							<a href="javascript:;" target="_blank">客服中心</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</header>
+		<div class="header_inside">
+			<div class="content">
+				<a class="inside_logo" href="index.html"><img class="replace_img" src="img-cart/logo_w.png"></a>
+				<h1>购物车</h1>
+			</div>
+		</div>
+		<div class="content">
+			<!--购物车标题栏-->
+			<div class="cart_div"></div>
+			<div class="buy_cart_type">
+				<div class="car_list">
+					<div class="car_tit blue">全球购（品牌）</div>
+					<ul class="car_list_th">
+						<li class="car_li03 car_hide">商品信息</li>
+						<li class="car_li04" style="text-align: center;">单价（元）</li>
+						<li class="car_li05" style="margin-left: 30px;text-align: center;">数量</li>
+						<li class="car_li06" style="text-align: center;">小计（元）</li>
+						<li class="car_li07" style="text-align: center;">操作</li>
+					</ul>
+					<!--店铺类型-->
+					<div class="gol_shop">
+						<div class="car_wrap">
+							<ul class="car_list_th">
+								<li class="car_li01">
+									<div class="check checkedwrap on_check">
+									</div>
+								</li>
+								<li class="car_store">
+									<p class="car_store_tit">
+										<i class="car_icon"></i>
+										<a href="javascript:;">海米派澳洲仓官方旗舰店</a>
+										<em class="car_pic"></em>
+									</p>
+								</li>
+							</ul>
+							<!--促销活动-->
+							<div class="cuxiao"></div>
+							<!--商品列表-->
+							<div class="brand_goods">
+
+							</div>
+						</div>
+						<div class="jiesuan">
+							<ul style="float: left;">
+								<li>
+									<div class="check checkedwrap on_check">
+									</div>
+								</li>
+								<li>全选</li>
+								<li>
+									<a class="del_check_goods">删除选中商品</a>
+								</li>
+								<li>
+									<a class="far_check_goods">移到收藏</a>
+								</li>
+								<li>已选
+									<font></font>件商品</li>
+								<li class="price">
+									<h3>
+										总价(元)(不含运费)：
+										<span></span>
+									</h3>
+								</li>
+							</ul>
+							<button class="btn-jiesuan">去结算</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="empty_car" style="display: none;">
+			<img src="img-cart/car_img.jpg">
+
+			<p>您的购物车已经饿扁了，快去逛逛吧
+				<a href="list.html">去逛逛</a>
+			</p>
+
+		</div>
+
+		<div class="content">
+			<div class="recommend_slide_tit ">
+				<span>推荐商品</span>
+			</div>
+			<!-- 推荐商品 -->
+			<div id="myCarousel " class="carousel slide recommend_slide ">
+				<div class="carousel-inner " role="listbox ">
+					<div class="item" id="item1">
+						<ul>
+
+						</ul>
+					</div>
+					<div class="item" id="item2">
+						<ul>
+
+						</ul>
+					</div>
+				</div>
+				<!-- 左右按钮 -->
+				<a class="left carousel-control " href="#myCarousel" id="cart_prev">
+					<span class="sr-only "></span>
+				</a>
+				<a class="right carousel-control " href="#myCarousel" id="cart_next">
+					<span class="sr-only "></span>
+				</a>
+
+			</div>
+		</div>
+		<!--footer-->
+		<footer>
+			<!--service-->
+			<div class="wrap1 ">
+				<div class="service ">
+					<ul>
+						<li><img src="img-index/service_01.png " /></li>
+						<li><img src="img-index/service_02.png " /></li>
+						<li><img src="img-index/service_03.png " /></li>
+						<li><img src="img-index/service_04.png " /></li>
+						<li><img src="img-index/service_05.png " /></li>
+					</ul>
+				</div>
+				<!--list-->
+				<div class="footer-list ">
+					<div class="wrap1 ">
+						<span style="margin-left: 0; " class="erweima ">
+					<img src="img-index/app_code.jpg "/ alt="扫我下载APP ">
+				</span>
+						<span class="erweima ">
+					<img src="img-index/wechart_code.jpg " alt="扫我关注微信号 "/>
+				</span>
+						<ul class="ml60 ">
+							<li class="title ">订购指南</li>
+							<li>
+								<a target="_blank " href="javascript:; ">新手指南</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">注册协议</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">发票说明</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">售后服务</a>
+							</li>
+						</ul>
+						<ul class="ml60 ">
+							<li class="title ">支付方式</li>
+							<li>
+								<a target="_blank " href="javascript ">在线支付</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript ">货到付款</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">电话支付</a>
+							</li>
+						</ul>
+						<ul class="ml60 ">
+							<li class="title ">配送服务</li>
+							<li>
+								<a target="_blank " href="javascript ">自营商品配送</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript ">品牌商品配送</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">全球购商品配送</a>
+							</li>
+						</ul>
+						<ul class="ml60 ">
+							<li class="title ">顾客需知</li>
+							<li>
+								<a target="_blank " href="javascript:; ">会员权益</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">购物金规则</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">优惠券规则</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">税费规则</a>
+							</li>
+						</ul>
+						<ul class="ml60 ">
+							<li class="title ">友情链接</li>
+							<li>
+								<a target="_blank " href="javascript:; ">江苏电视台</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">荔枝网</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">幸福蓝海</a>
+							</li>
+							<li>
+								<a target="_blank " href="javascript:; ">海米派</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<!--links-->
+				<div class="foot_bt ">
+					<div class="links ">
+						<a href="javascript:; " target="_blank ">关于好享购物</a> |
+						<a href="javascript:; " target="_blank " rel="nofollow ">供应商系统</a> |
+						<a href="javascript:; " target="_blank " rel="nofollow ">商家入驻</a> |
+						<a href="javascript:; " target="_blank ">联系我们</a>
+					</div>
+					<div class="foot_bg_line "></div>
+					<div class="pic_links ">
+						<a href="javascript:; " target="_blank " rel="nofollow ">
+							<img src="img-index/link_yinlian.gif " alt="银联特约商户 " width="165 " height="48 ">
+						</a>
+						<a href="javascript:; " target="_blank " rel="nofollow ">
+							<img src="img-index/zhifubao.gif " alt="支付宝 " width="127 " height="48 ">
+						</a>
+						<a href="javascript:; " target="_blank " rel="nofollow ">
+							<img src="img-index/jingwei.gif " alt="网络110报警 " width="162 " height="48 ">
+						</a>
+						<a href="javascript:; " target="_blank " rel="nofollow ">
+							<img src="img-index/golden.jpg " alt="互联网电子商务诚信示范企业 " width="112 " height="40 ">
+						</a>
+
+						<a id="___szfw_logo___ " href="javascript:; " target="_blank " rel="nofollow ">
+							<img src="img-index/szfw_cert.gif " border="0 " alt="诚信网站 ">
+						</a>
+					</div>
+					<div class="banquan ">
+						<div class="banquan_left ">
+							<img title="版权所有 " alt="版权所有 " src="img-index/copyrights.jpg " width="136 " height="50 ">
+						</div>
+						<div class="banquan_rt "><strong class="copy_strong " style=" ">江苏省广播电视总台（集团）成员企业</strong>
+							<p> Copyright©2009-2017好享购物Hao24.com版权所有 </p>
+							<p> 客服热线：400-608-8888
+								<a target="_blank " href="javascript:; "> 苏ICP备08119934号</a>
+							</p>
+							<p>支持方正正版字体</p>
+						</div>
+					</div>
+					<div style="margin:10px auto 18px auto;width:50px;height:65px ">
+						<a href="javascript:; " target="_blank ">
+							<img src="img-index/ebsIcon.png " title=" " alt=" " style="border-width:0px;border:hidden; border:none; " width="55 " height="65 " border="0 ">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>

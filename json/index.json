@@ -1,0 +1,258 @@
+{
+	"list": {
+		"title": [
+			"全球购",
+			"美食酒饮",
+			"个户美妆",
+			"家居生活",
+			"服饰家纺",
+			"数码家电",
+			"黄金珠宝"
+		],
+		"icon": [
+			"img-index/purchase.png",
+			"img-index/delicacy.png",
+			"img-index/beauty.png",
+			"img-index/kitchen.png",
+			"img-index/textiles.png",
+			"img-index/digital.png",
+			"img-index/jewelry.png"
+		],
+		"twotitle": [
+			"美容护肤",
+			"家居日用",
+			"个护健康",
+			"保健品",
+			"钟表首饰"
+		],
+		"twocont": [
+			"美妆护肤",
+			"家居用品",
+			"个护健康",
+			"保健品",
+			"钟表"
+		],
+		"twotitle1": {
+			"one": [
+				"食品饮料",
+				"生鲜",
+				"中外名酒",
+				"保健食品",
+				"钟表首饰"
+			],
+			"one_1": [
+				"进口食品",
+				"休闲食品",
+				"粮油调味",
+				"冲调饮料",
+				"时尚礼券",
+				"茗茶",
+				"地方特产"
+			],
+			"two_1": [
+				"水果、蔬菜",
+				"海鲜水产",
+				"肉禽蛋奶",
+				"熟食腊味"
+			],
+			"three_1": [
+				"白酒",
+				"葡萄酒",
+				"洋酒"
+			],
+			"four_1": [
+				"营养健康",
+				"海鲜水产",
+				"传统滋补"
+			],
+			"five_1": [
+				"水果、蔬菜",
+				"急救卫生"
+			]
+		},
+		"twocont1": [
+			"美妆护肤",
+			"家居用品",
+			"个护健康",
+			"保健品",
+			"钟表"
+		],
+		"twotitle2": [
+			"美容护肤",
+			"家居日用",
+			"个护健康",
+			"保健品",
+			"钟表首饰"
+		],
+		"twocont2": [
+			"美妆护肤",
+			"家居用品",
+			"个护健康",
+			"保健品",
+			"钟表"
+		],
+		"twotitle3": [
+			"美容护肤",
+			"家居日用",
+			"个护健康",
+			"保健品",
+			"钟表首饰"
+		],
+		"twocont3": [
+			"美妆护肤",
+			"家居用品",
+			"个护健康",
+			"保健品",
+			"钟表"
+		],
+		"twotitle4": [
+			"美容护肤",
+			"家居日用",
+			"个护健康",
+			"保健品",
+			"钟表首饰"
+		],
+		"twocont4": [
+			"美妆护肤",
+			"家居用品",
+			"个护健康",
+			"保健品",
+			"钟表"
+		],
+		"twotitle5": [
+			"美容护肤",
+			"家居日用",
+			"个护健康",
+			"保健品",
+			"钟表首饰"
+		],
+		"twocont5": [
+			"美妆护肤",
+			"家居用品",
+			"个护健康",
+			"保健品",
+			"钟表"
+		],
+		"twotitle6": [
+			"美容护肤",
+			"家居日用",
+			"个护健康",
+			"保健品",
+			"钟表首饰"
+		],
+		"twocont6": [
+			"美妆护肤",
+			"家居用品",
+			"个护健康",
+			"保健品",
+			"钟表"
+		]
+	},
+	"banner": [
+		"img-index/148533662256395705.jpg",
+		"img-index/148533521225218174.jpg",
+		"img-index/148533072384362440.jpg",
+		"img-index/148533058344820593.jpg",
+		"img-index/148532707508239856.jpg",
+		"img-index/14853147662753847.jpg",
+		"img-index/14861745195445476.jpg",
+		"img-index/banner1.jpg",
+		"img-index/banner2.jpg",
+		"img-index/banner3.jpg",
+		"img-index/banner5.jpg"
+	],
+	"bgcolor": [
+		" #f5f5f5 none repeat scroll 0% 0%;",
+		" #d4223a none repeat scroll 0% 0%;",
+		" #faefdd none repeat scroll 0% 0%;",
+		" #150c0d none repeat scroll 0% 0%;",
+		" #ed1f11 none repeat scroll 0% 0%;",
+		" #ff3f80 none repeat scroll 0% 0%;",
+		" #ed1f11 none repeat scroll 0% 0%;",
+		" #fff59f none repeat scroll 0% 0%;",
+		" #f9dee7 none repeat scroll 0% 0%;",
+		" #be3046 none repeat scroll 0% 0%;",
+		" #22ad38 none repeat scroll 0% 0%;"
+	],
+	"content": {
+		"left": [
+			"img-index/148481664360121750.jpg"
+		],
+		"c_left": [
+			"img-index/148370358579370663.jpg",
+			"img-index/148370362258069835.jpg",
+			"img-index/148370365694662494.jpg",
+			"img-index/148370369802353695.jpg"
+		],
+		"c_middle": [
+			"img-index/148370379742782457.jpg"
+		],
+		"c_right": [
+			"img-index/148370383162867525.jpg",
+			"img-index/148370389161410769.jpg"
+		],
+		"sp_name": [
+			"茱莉蔻Jurlique水分亮肌滋润面霜 40ml",
+			"自然之宝超浓缩 欧米伽-3深海鱼油软胶囊10*30粒",
+			"美国GNC健安喜玛卡胶囊 50粒*2瓶",
+			"HansgroheLogis循环单孔浴室水龙头",
+			"意大利 MAGIC 魔法大师 冰箱除臭彩蛋除味剂（全球购",
+			"德国 laligne 娜丽莲 牛奶蜂蜜洗手液500ml（全球购）",
+			"美国 Nature’s Bounty/自然之宝 鱼油软胶囊100粒（全球购）",
+			"美国GNC健安喜玛卡胶囊 50粒*2瓶"
+		],
+		"sp_img": [
+			"img-index/148455194260115829M.jpg",
+			"img-index/148455221537617855M.jpg",
+			"img-index/148455332177879432M.jpg",
+			"img-index/148455408169620870M.jpg",
+			"img-index/148455443275979595M.jpg",
+			"img-index/148455458087972816M.jpg",
+			"img-index/148455466758915024M.jpg",
+			"img-index/148455476845268968M.jpg"
+		],
+
+		"sp_img1": [
+			"img-index/148176663810891003M.jpg",
+			"img-index/148117532571335181M.jpg",
+			"img-index/148403394989854424M.jpg",
+			"img-index/148454996735125821M.jpg",
+			"img-index/147943707276344049M.jpg",
+			"img-index/147997450135024939M.jpg",
+			"img-index/148065790206033322M.jpg",
+			"img-index/148107570810236862M.jpg"
+		],
+
+		"sp_img2": [
+			"img-index/14864506235537392M.jpg",
+			"img-index/14864523958841631M.jpg",
+			"img-index/14823065233687240M.jpg",
+			"img-index/148645729713745364.jpg",
+			"img-index/14834315901941690M.jpg",
+			"img-index/14846354860262689M.jpg",
+			"img-index/14864506235537392M.jpg",
+			"img-index/148040882901783413M.jpg"
+		],
+
+		"sp_img3": [
+			"img-index/14786828652516721M.jpg",
+			"img-index/14793561209163600M.jpg",
+			"img-index/14806428189305775M.jpg",
+			"img-index/14828891307751707M.jpg",
+			"img-index/147850765683072632M.jpg",
+			"img-index/147850824434748309M.jpg",
+			"img-index/14864506235537392M.jpg",
+			"img-index/147868225093094889M.jpg"
+		],
+		"sp_price": [
+			"188",
+			"288",
+			"388",
+			"488",
+			"588",
+			"666",
+			"888",
+			"668"
+		]
+	}
+}
