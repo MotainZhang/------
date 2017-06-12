@@ -225,7 +225,7 @@ $(function() {
 			$(".last").css("margin-right", "-370px");
 			$(".b-right").css("right", "37px");
 		} else {
-			$(".m_width").css("left", "312px");
+			$(".m_width").css("left", "414px");
 			$(".last").css("margin-right", "-352px");
 			$(".b-right").css("right", "116px");
 		}
