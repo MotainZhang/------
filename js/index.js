@@ -224,7 +224,11 @@ $(function() {
 			$(".m_width").css("left", "225px");
 			$(".last").css("margin-right", "-370px");
 			$(".b-right").css("right", "37px");
-		} else {
+		} else if(window.screen.width > 1440){
+			$(".m_width").css("left", "500px");
+			$(".last").css("margin-right", "-352px");
+			$(".b-right").css("right", "380px");
+		}else{
 			$(".m_width").css("left", "414px");
 			$(".last").css("margin-right", "-352px");
 			$(".b-right").css("right", "116px");
